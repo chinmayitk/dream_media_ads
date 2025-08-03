@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Media Ads - Outdoor Advertising Solutions | Bangalore</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Dreams Media Ads - Premier outdoor advertising agency in Bangalore. Hoardings, billboards, digital displays, bus advertising, and more. Get free quote today!">
+    <meta name="keywords" content="outdoor advertising, billboard advertising, hoardings, digital displays, bus advertising, Bangalore advertising, Dreams Media Ads, advertising agency">
+    <meta name="author" content="Dreams Media Ads">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Dreams Media Ads - Outdoor Advertising Solutions">
+    <meta property="og:description" content="Premier outdoor advertising agency in Bangalore. Hoardings, billboards, digital displays, bus advertising, and more.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://dreamsmediaads.com">
+    <meta property="og:image" content="https://dreamsmediaads.com/logo.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dreams Media Ads - Outdoor Advertising Solutions">
+    <meta name="twitter:description" content="Premier outdoor advertising agency in Bangalore. Get free quote today!">
+    <meta name="twitter:image" content="https://dreamsmediaads.com/logo.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://dreamsmediaads.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.jpg">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Dreams Media Ads",
+        "description": "Premier outdoor advertising agency specializing in hoardings, billboards, digital displays, and transit media advertising.",
+        "url": "https://dreamsmediaads.com",
+        "telephone": "+91-8197707263",
+        "email": "dreamsmediaadsinfo@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bangalore",
+            "addressRegion": "Karnataka",
+            "addressCountry": "India"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "12.9716",
+            "longitude": "77.5946"
+        },
+        "openingHours": "Mo-Sa 09:00-18:00",
+        "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+                "@type": "GeoCoordinates",
+                "latitude": "12.9716",
+                "longitude": "77.5946"
+            },
+            "geoRadius": "50000"
+        },
+        "services": [
+            "Outdoor Advertising",
+            "Billboard Advertising", 
+            "Digital Display Advertising",
+            "Transit Media Advertising",
+            "Hoarding Advertising",
+            "Bus Stop Advertising"
+        ]
+    }
+    </script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script>
+        // WhatsApp messaging function
+        function sendWhatsAppMessage() {
+            const phoneNumber = "918197707263"; // Your WhatsApp number
+            const message = "Hi! I'm interested in your outdoor advertising services. Could you please provide more information?";
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .service-icon {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover .service-icon {
+            transform: scale(1.2);
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .testimonial-slider {
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .testimonial-slide {
+            transition: transform 0.5s ease;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #8b5cf6;
+            border-radius: 10px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #7c3aed;
+        }
+        
+        /* Floating WhatsApp Button */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: #fff;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .whatsapp-float:hover {
+            background-color: #20ba5a;
+            transform: scale(1.1);
+        }
+        
+        .whatsapp-float svg {
+            margin: 0;
+        }
+        
+        /* Mobile responsive adjustments */
+        @media (max-width: 768px) {
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                bottom: 15px;
+                right: 15px;
+            }
+            
+            .whatsapp-float svg {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Floating WhatsApp Button -->
+    <button class="whatsapp-float" onclick="sendWhatsAppMessage()" title="Chat with us on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+        </svg>
+    </button>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="flex items-center">
+                    <img src="logo.jpg" alt="Dreams Media Ads" class="h-10 w-auto mr-2">
+                    <span class="text-2xl font-bold text-purple-600">Dreams Media Ads</span>
+                </div>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="text-gray-700 hover:text-purple-600 font-medium transition duration-300">Home</a>
+                <a href="#services" class="text-gray-700 hover:text-purple-600 font-medium transition duration-300">Services</a>
+                <a href="#about" class="text-gray-700 hover:text-purple-600 font-medium transition duration-300">About</a>
+                <a href="#portfolio" class="text-gray-700 hover:text-purple-600 font-medium transition duration-300">Portfolio</a>
+                <a href="#contact" class="text-gray-700 hover:text-purple-600 font-medium transition duration-300">Contact</a>
+            </div>
+            
+            <div class="md:hidden">
+                <button id="menu-toggle" class="text-gray-700 hover:text-purple-600 focus:outline-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+            <a href="#home" class="block py-3 px-4 text-gray-700 hover:bg-purple-50 hover:text-purple-600">Home</a>
+            <a href="#services" class="block py-3 px-4 text-gray-700 hover:bg-purple-50 hover:text-purple-600">Services</a>
+            <a href="#about" class="block py-3 px-4 text-gray-700 hover:bg-purple-50 hover:text-purple-600">About</a>
+            <a href="#portfolio" class="block py-3 px-4 text-gray-700 hover:bg-purple-50 hover:text-purple-600">Portfolio</a>
+            <a href="#contact" class="block py-3 px-4 text-gray-700 hover:bg-purple-50 hover:text-purple-600">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-24 pb-16 md:pt-32 md:pb-24 gradient-bg text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6">Elevate Your Brand With Impactful Outdoor Advertising</h1>
+                    <p class="text-lg mb-8 text-gray-100">Dreams Media Ads delivers comprehensive outdoor advertising solutions that capture attention and drive results.</p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#services" class="bg-white text-purple-600 font-medium py-3 px-6 rounded-lg hover:bg-gray-100 transition duration-300 text-center">Explore Services</a>
+                        <button onclick="sendWhatsAppMessage()" class="bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center flex items-center justify-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                            </svg>
+                            <span>WhatsApp Us</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md" viewBox="0 0 800 600">
+                        <rect x="100" y="100" width="600" height="300" rx="20" fill="#f3f4f6" stroke="#4f46e5" stroke-width="8"/>
+                        <rect x="130" y="130" width="540" height="240" rx="10" fill="#ffffff"/>
+                        <rect x="150" y="150" width="500" height="60" rx="5" fill="#8b5cf6"/>
+                        <text x="400" y="190" font-family="Arial" font-size="24" fill="white" text-anchor="middle">DREAMS MEDIA ADS</text>
+                        <rect x="150" y="220" width="500" height="40" rx="5" fill="#e5e7eb"/>
+                        <text x="400" y="247" font-family="Arial" font-size="18" fill="#4b5563" text-anchor="middle">Your Brand Deserves To Be Seen</text>
+                        <rect x="150" y="270" width="500" height="80" rx="5" fill="#f9fafb"/>
+                        <text x="400" y="310" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">High-impact outdoor advertising solutions</text>
+                        <text x="400" y="335" font-family="Arial" font-size="14" fill="#6b7280" text-anchor="middle">that deliver real results for your business</text>
+                        <rect x="250" y="420" width="300" height="50" rx="25" fill="#8b5cf6"/>
+                        <text x="400" y="452" font-family="Arial" font-size="18" fill="white" text-anchor="middle">CONTACT US</text>
+                        <line x1="100" y1="430" x2="50" y2="500" stroke="#4f46e5" stroke-width="8"/>
+                        <line x1="700" y1="430" x2="750" y2="500" stroke="#4f46e5" stroke-width="8"/>
+                        <rect x="20" y="500" width="60" height="20" rx="5" fill="#4f46e5"/>
+                        <rect x="720" y="500" width="60" height="20" rx="5" fill="#4f46e5"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Advertising Solutions</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Comprehensive outdoor and traditional advertising services to boost your brand visibility and drive customer engagement.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                    <div class="service-icon bg-blue-100 text-blue-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Outdoor Advertising</h3>
+                    <p class="text-gray-600 text-center mb-4">High visibility solutions including billboards, pole kiosks, bus stop ads, and more.</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Hoardings & Billboards
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Bus Stop Shelter Ads
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Auto Rickshaw Ads
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Wall Paintings & Murals
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="view-service-btn bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300" data-service="outdoor">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                    <div class="service-icon bg-purple-100 text-purple-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Directional & Local Branding</h3>
+                    <p class="text-gray-600 text-center mb-4">Strategic signage to guide customers and enhance local presence.</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Arrow Direction Boards
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Pole Signages
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            3D Cutouts
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Glow Sign Boards
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="view-service-btn bg-purple-600 hover:bg-purple-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300" data-service="directional">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                    <div class="service-icon bg-green-100 text-green-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Guerrilla Marketing</h3>
+                    <p class="text-gray-600 text-center mb-4">Creative, budget-friendly tactics with high viral potential.</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Stickers & Posters
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Chalk Art & Floor Decals
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Flash Mobs & Performances
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Pop-Up Stalls
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="view-service-btn bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300" data-service="guerrilla">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                    <div class="service-icon bg-red-100 text-red-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Real Estate & Local Focus</h3>
+                    <p class="text-gray-600 text-center mb-4">Hyperlocal outreach strategies for real estate and local businesses.</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Pamphlet Distribution
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Apartment Activations
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Mall Activations
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Local Events Sponsorship
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="view-service-btn bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300" data-service="realestate">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                    <div class="service-icon bg-yellow-100 text-yellow-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Events & Exhibitions</h3>
+                    <p class="text-gray-600 text-center mb-4">Engagement-focused activities for direct customer interaction.</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Canopy Stalls & Kiosks
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Demo & Sampling Booths
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Road Shows
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Interactive Brand Games
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="view-service-btn bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300" data-service="events">Learn More</button>
+                    </div>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="service-card bg-white rounded-xl shadow-lg p-6 border border-gray-100">
+                    <div class="service-icon bg-indigo-100 text-indigo-600 w-16 h-16 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-3 text-center">Retail & POS Branding</h3>
+                    <p class="text-gray-600 text-center mb-4">Point-of-sale solutions to capture attention at the moment of purchase.</p>
+                    <ul class="text-gray-600 space-y-2 mb-6">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Standees & Displays
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Danglers & Tent Cards
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Co-branded Promotions
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                            </svg>
+                            Shelf Branding
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="view-service-btn bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300" data-service="retail">Learn More</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="#all-services" class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300 inline-flex items-center">
+                    <span>View All Services</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Modal -->
+    <div id="service-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center hidden">
+        <div class="bg-white rounded-xl max-w-3xl w-full max-h-[90vh] overflow-y-auto p-6 mx-4">
+            <div class="flex justify-between items-center mb-6">
+                <h3 id="modal-title" class="text-2xl font-bold text-gray-800"></h3>
+                <button id="close-modal" class="text-gray-500 hover:text-gray-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <div id="modal-content" class="text-gray-600"></div>
+            <div class="mt-8 flex justify-end">
+                <button id="modal-close-btn" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-6 rounded-lg transition duration-300">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md mx-auto" viewBox="0 0 800 600">
+                        <circle cx="400" cy="300" r="250" fill="#f3f4f6" stroke="#8b5cf6" stroke-width="8"/>
+                        <circle cx="400" cy="300" r="200" fill="#ffffff" stroke="#8b5cf6" stroke-width="4"/>
+                        <rect x="300" y="200" width="200" height="200" rx="20" fill="#8b5cf6"/>
+                        <text x="400" y="300" font-family="Arial" font-size="40" fill="white" text-anchor="middle" dominant-baseline="middle">DMA</text>
+                        <text x="400" y="350" font-family="Arial" font-size="16" fill="white" text-anchor="middle" dominant-baseline="middle">Dreams Media Ads</text>
+                        <path d="M250,300 C250,200 350,150 400,150 C450,150 550,200 550,300 C550,400 450,450 400,450 C350,450 250,400 250,300 Z" fill="none" stroke="#4f46e5" stroke-width="4" stroke-dasharray="10,5"/>
+                        <circle cx="250" cy="300" r="10" fill="#4f46e5"/>
+                        <circle cx="550" cy="300" r="10" fill="#4f46e5"/>
+                        <circle cx="400" cy="150" r="10" fill="#4f46e5"/>
+                        <circle cx="400" cy="450" r="10" fill="#4f46e5"/>
+                    </svg>
+                </div>
+                <div class="md:w-1/2 md:pl-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">About Dreams Media Ads</h2>
+                    <p class="text-gray-600 mb-6">Dreams Media Ads is a premier outdoor advertising agency specializing in high-impact, cost-effective advertising solutions. We help businesses of all sizes increase their visibility and connect with their target audience through strategic outdoor and traditional media placements.</p>
+                    <p class="text-gray-600 mb-6">With years of experience in the advertising industry, our team of experts understands how to create campaigns that capture attention and drive results. We pride ourselves on our creative approach, attention to detail, and commitment to delivering exceptional value to our clients.</p>
+                    <div class="grid grid-cols-2 gap-6 mb-8">
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 rounded-full p-3 mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Fast Execution</h4>
+                                <p class="text-sm text-gray-600">Quick turnaround times</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 rounded-full p-3 mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Creative Solutions</h4>
+                                <p class="text-sm text-gray-600">Innovative approaches</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 rounded-full p-3 mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Cost Effective</h4>
+                                <p class="text-sm text-gray-600">Budget-friendly options</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <div class="bg-purple-100 rounded-full p-3 mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Trusted Quality</h4>
+                                <p class="text-sm text-gray-600">Premium materials</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button onclick="sendWhatsAppMessage()" class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300 inline-flex items-center justify-center">
+                        <span>Get in Touch</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4"> Portfolio</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Explore our successful advertising campaigns and creative solutions that have helped businesses achieve their marketing goals.</p>
+            </div>
+            
+            <!-- Portfolio Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="relative h-64 bg-gradient-to-br from-blue-400 to-purple-600 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                </svg>
+                                <h4 class="text-lg font-semibold">Billboard Campaign</h4>
+                                <p class="text-sm opacity-80">Shopping Mall</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Retail Brand Billboard</h3>
+                        <p class="text-gray-600 mb-4">High-impact billboard advertising for a major retail chain, resulting in 30% increase in footfall.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="bg-blue-100 text-blue-800 text-xs px-3 py-1 rounded-full">Outdoor Advertising</span>
+                            <button onclick="sendWhatsAppMessage()" class="text-purple-600 hover:text-purple-800 font-medium text-sm">Get Quote</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="relative h-64 bg-gradient-to-br from-green-400 to-blue-600 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <h4 class="text-lg font-semibold">Digital Display</h4>
+                                <p class="text-sm opacity-80">Metro Station</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Digital Metro Advertising</h3>
+                        <p class="text-gray-600 mb-4">Dynamic digital displays at metro stations reaching thousands of commuters daily.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="bg-green-100 text-green-800 text-xs px-3 py-1 rounded-full">Digital Displays</span>
+                            <button onclick="sendWhatsAppMessage()" class="text-purple-600 hover:text-purple-800 font-medium text-sm">Get Quote</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="relative h-64 bg-gradient-to-br from-yellow-400 to-red-600 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+                                </svg>
+                                <h4 class="text-lg font-semibold">Bus Advertising</h4>
+                                <p class="text-sm opacity-80">City Routes</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Bus Wrap Campaign</h3>
+                        <p class="text-gray-600 mb-4">Complete bus branding across multiple routes for maximum city-wide exposure.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="bg-yellow-100 text-yellow-800 text-xs px-3 py-1 rounded-full">Transit Media</span>
+                            <button onclick="sendWhatsAppMessage()" class="text-purple-600 hover:text-purple-800 font-medium text-sm">Get Quote</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="relative h-64 bg-gradient-to-br from-purple-400 to-pink-600 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                </svg>
+                                <h4 class="text-lg font-semibold">Event Activation</h4>
+                                <p class="text-sm opacity-80">Mall Promotion</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Product Launch Event</h3>
+                        <p class="text-gray-600 mb-4">Complete event management and branding for a successful product launch campaign.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="bg-purple-100 text-purple-800 text-xs px-3 py-1 rounded-full">Events & BTL</span>
+                            <button onclick="sendWhatsAppMessage()" class="text-purple-600 hover:text-purple-800 font-medium text-sm">Get Quote</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="relative h-64 bg-gradient-to-br from-red-400 to-orange-600 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <h4 class="text-lg font-semibold">Pole Signage</h4>
+                                <p class="text-sm opacity-80">Highway</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Highway Pole Kiosks</h3>
+                        <p class="text-gray-600 mb-4">Strategic pole signage placement on major highways for interstate business promotion.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="bg-red-100 text-red-800 text-xs px-3 py-1 rounded-full">Outdoor Advertising</span>
+                            <button onclick="sendWhatsAppMessage()" class="text-purple-600 hover:text-purple-800 font-medium text-sm">Get Quote</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transition duration-300 hover:shadow-xl">
+                    <div class="relative h-64 bg-gradient-to-br from-indigo-400 to-purple-600 overflow-hidden">
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <div class="text-center text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 mx-auto mb-4 opacity-80" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                </svg>
+                                <h4 class="text-lg font-semibold">LED Display</h4>
+                                <p class="text-sm opacity-80">City Center</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">LED Screen Advertising</h3>
+                        <p class="text-gray-600 mb-4">High-resolution LED display campaigns in prime city center locations.</p>
+                        <div class="flex items-center justify-between">
+                            <span class="bg-indigo-100 text-indigo-800 text-xs px-3 py-1 rounded-full">Digital Displays</span>
+                            <button onclick="sendWhatsAppMessage()" class="text-purple-600 hover:text-purple-800 font-medium text-sm">Get Quote</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Portfolio Stats -->
+            <div class="mt-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl p-8 text-white">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">150+</div>
+                        <div class="text-purple-100">Successful Campaigns</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">500+</div>
+                        <div class="text-purple-100">Happy Clients</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">50+</div>
+                        <div class="text-purple-100">Cities Covered</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl md:text-4xl font-bold mb-2">95%</div>
+                        <div class="text-purple-100">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Call to Action -->
+            <div class="mt-12 text-center">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Ready to Start Your Campaign?</h3>
+                <p class="text-gray-600 mb-6">Let's discuss how we can help your brand reach new heights with our advertising solutions.</p>
+                <button onclick="sendWhatsAppMessage()" class="bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300 inline-flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                    </svg>
+                    <span>Get Your Free Quote</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Services Section -->
+    <section id="all-services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Complete Service Offerings</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Explore our comprehensive range of advertising solutions designed to meet all your marketing needs.</p>
+            </div>
+            
+            <div class="mb-8">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button class="service-tab bg-purple-600 text-white px-6 py-2 rounded-full font-medium" data-tab="tab1">Outdoor Advertising</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab2">Directional & Local</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab3">Guerrilla Marketing</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab4">Real Estate Focus</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab5">Events & Exhibitions</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab6">Retail & POS</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab7">Direct Marketing</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab8">Merchandising</button>
+                    <button class="service-tab bg-gray-200 text-gray-700 px-6 py-2 rounded-full font-medium" data-tab="tab9">Traditional Media</button>
+                </div>
+            </div>
+            
+            <div class="bg-gray-50 rounded-xl p-6 md:p-8">
+                <!-- Tab 1 Content -->
+                <div id="tab1" class="tab-content active">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Outdoor Advertising</h3>
+                            <p class="text-gray-600 mb-4">High visibility solutions that create brand awareness and generate leads through strategic placements in high-traffic areas.</p>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <h4 class="font-semibold text-purple-800 mb-2">Key Benefits:</h4>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        24/7 visibility to large audiences
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Builds brand recognition
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Targets specific geographic areas
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Cost-effective per impression
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Hoardings & Billboards</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Strategic placement near highways, junctions, IT parks, and malls for maximum visibility.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Pole Kiosk Boards</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Small flex boards on electric poles for hyperlocal targeting and continuous visibility.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Bus Stop Shelter Ads</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Captive audience advertising at bus stops, providing great daily impressions.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Auto Rickshaw Ads</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Cost-effective mobile advertising that reaches throughout local areas.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">BMTC Bus Wraps</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Wide area coverage with moving advertisements that reach diverse audiences.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Road Median Boards</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Perfect for continuous brand recall with strategic placement on road medians.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tab 2 Content -->
+                <div id="tab2" class="tab-content">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Directional & Local Branding</h3>
+                            <p class="text-gray-600 mb-4">Strategic signage solutions that guide potential customers to your business while reinforcing your brand identity.</p>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <h4 class="font-semibold text-purple-800 mb-2">Key Benefits:</h4>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Improves navigation to your location
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Enhances local brand recognition
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Drives foot traffic to your business
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        24/7 visibility in your target area
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Arrow Direction Boards</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Guide customers from main roads directly to your business location.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Pole Signages</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Branded signage on poles featuring your business name and contact information.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">3D Cutouts</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Eye-catching 3D branding of products or people near events or roads.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-purple-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Glow Sign Boards</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Illuminated signage providing 24/7 visibility for your business.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tab 3 Content -->
+                <div id="tab3" class="tab-content">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Guerrilla Marketing</h3>
+                            <p class="text-gray-600 mb-4">Creative, unconventional marketing tactics that create buzz and generate word-of-mouth at a fraction of traditional advertising costs.</p>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <h4 class="font-semibold text-purple-800 mb-2">Key Benefits:</h4>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Low-cost, high-impact marketing
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Creates memorable brand experiences
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        High viral potential
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Reaches audiences in unexpected ways
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Stickers & Posters</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Strategic placement in local shops, tea stalls, and community gathering spots.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Chalk Art & Floor Decals</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Eye-catching temporary art near entrances and walkways to attract attention.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Flash Mobs & Performances</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Surprise performances in public spaces to create buzz and social media sharing.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Pop-Up Stalls</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Temporary branded stalls in crowded places like malls, colleges, and events.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-green-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Unique Packaging Design</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Creative packaging for deliveries and gifting that turns customers into brand ambassadors.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tab 4-9 Content would follow the same pattern -->
+                <div id="tab4" class="tab-content">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Real Estate & Local Business Focus</h3>
+                            <p class="text-gray-600 mb-4">Targeted hyperlocal outreach strategies designed specifically for real estate developers and local businesses.</p>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <h4 class="font-semibold text-purple-800 mb-2">Key Benefits:</h4>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Precise geographic targeting
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Direct reach to potential buyers
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Community integration
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Measurable response rates
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-red-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Pamphlet Distribution</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Strategic distribution in newspapers or door-to-door in targeted neighborhoods.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-red-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Apartment Activations</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Banners, leaflet stands, and event sponsorships within residential complexes.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-red-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Mall Activations</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Branded experiences and promotional activities in shopping centers.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-red-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Local Events Sponsorship</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Branded presence at marathons, school/college fests, and temple fairs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="tab5" class="tab-content">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Events, Exhibitions & BTL Activities</h3>
+                            <p class="text-gray-600 mb-4">Engagement-focused activities that create direct interactions with potential customers and drive conversions.</p>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <h4 class="font-semibold text-purple-800 mb-2">Key Benefits:</h4>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Direct customer engagement
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Immediate feedback and lead collection
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Product demonstrations
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Higher conversion rates
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Canopy Stalls & Kiosks</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Branded temporary structures in high-traffic areas for direct customer interaction.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11.5V14m0-2.5v-6a1.5 1.5 0 113 0m-3 6a1.5 1.5 0 00-3 0v2a7.5 7.5 0 0015 0v-5a1.5 1.5 0 00-3 0m-6-3V11m0-5.5v-1a1.5 1.5 0 013 0v1m0 0V11m0-5.5a1.5 1.5 0 013 0v3m0 0V11" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Demo & Sampling Booths</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Product demonstration and sampling opportunities to create hands-on experiences.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Road Shows</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Mobile marketing campaigns with branded vehicles and announcers.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-yellow-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Interactive Brand Games</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Engaging activities like spin wheels and contests to create memorable brand experiences.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="tab6" class="tab-content">
+                    <div class="flex flex-col md:flex-row">
+                        <div class="md:w-1/3 mb-6 md:mb-0 md:pr-8">
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Retail & POS Branding</h3>
+                            <p class="text-gray-600 mb-4">Point-of-sale marketing solutions that influence purchasing decisions at the critical moment of truth.</p>
+                            <div class="bg-purple-100 p-4 rounded-lg">
+                                <h4 class="font-semibold text-purple-800 mb-2">Key Benefits:</h4>
+                                <ul class="text-gray-700 space-y-2">
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Influences purchase decisions
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Increases brand visibility
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Drives impulse purchases
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600 mr-2 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                                        </svg>
+                                        Cost-effective marketing
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="md:w-2/3">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-pink-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M8 11v6h8v-6H8z" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">Shop Branding</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Complete store front branding with signage and display materials.</p>
+                                </div>
+                                <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-100">
+                                    <div class="flex items-center mb-4">
+                                        <div class="bg-pink-100 p-3 rounded-full mr-4">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1" />
+                                            </svg>
+                                        </div>
+                                        <h4 class="font-semibold text-gray-800">POS Materials</h4>
+                                    </div>
+                                    <p class="text-gray-600 text-sm">Point-of-sale displays, shelf talkers, and promotional materials.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4 max-w-6xl">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Ready to elevate your brand with our outdoor advertising solutions? Contact us today for a consultation!</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Quick Contact & WhatsApp -->
+                <div class="space-y-8">
+                    <div class="bg-gradient-to-br from-purple-50 to-blue-50 p-8 rounded-xl border border-purple-100">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Get Your Free Quote</h3>
+                        <p class="text-gray-600 mb-6">Ready to boost your brand visibility? We're here to help you create impactful advertising campaigns that deliver real results.</p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <div class="bg-purple-100 p-2 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">Free consultation & quote</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="bg-purple-100 p-2 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">24/7 customer support</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <div class="bg-purple-100 p-2 rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                    </svg>
+                                </div>
+                                <span class="text-gray-700">Quick response guaranteed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- WhatsApp Contact Button -->
+                    <div class="bg-green-50 p-6 rounded-lg border border-green-200">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-green-100 p-3 rounded-full mr-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-600" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold text-gray-800">Quick WhatsApp Contact</h4>
+                                <p class="text-gray-600 text-sm">Get instant response on WhatsApp!</p>
+                            </div>
+                        </div>
+                        <button onclick="sendWhatsAppMessage()" class="w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center space-x-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                            </svg>
+                            <span>Message us on WhatsApp</span>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="bg-white p-8 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Send us a Message</h3>
+                    <form id="contactForm" class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-gray-700 mb-2">First Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-300" placeholder="Your first name">
+                                <div class="error-message text-red-500 text-xs mt-1 hidden" id="firstName-error">First name is required</div>
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-gray-700 mb-2">Last Name <span class="text-red-500">*</span></label>
+                                <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-300" placeholder="Your last name">
+                                <div class="error-message text-red-500 text-xs mt-1 hidden" id="lastName-error">Last name is required</div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address <span class="text-red-500">*</span></label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-300" placeholder="your.email@example.com">
+                            <div class="error-message text-red-500 text-xs mt-1 hidden" id="email-error">Please enter a valid email address</div>
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Phone Number <span class="text-red-500">*</span></label>
+                            <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-300" placeholder="+91 8197707263">
+                            <div class="error-message text-red-500 text-xs mt-1 hidden" id="phone-error">Phone number is required</div>
+                        </div>
+                        
+                        <div>
+                            <label for="service" class="block text-sm font-medium text-gray-700 mb-2">Service Interested In <span class="text-red-500">*</span></label>
+                            <select id="service" name="service" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-300">
+                                <option value="">Select a service</option>
+                                <option value="hoardings">Hoardings & Billboards</option>
+                                <option value="digital">Digital Displays</option>
+                                <option value="transit">Transit Media</option>
+                                <option value="street">Street Furniture</option>
+                                <option value="events">Events & BTL Activities</option>
+                                <option value="retail">Retail & POS Branding</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="error-message text-red-500 text-xs mt-1 hidden" id="service-error">Please select a service</div>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700 mb-2">Message <span class="text-red-500">*</span></label>
+                            <textarea id="message" name="message" rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-300" placeholder="Tell us about your project requirements..."></textarea>
+                            <div class="error-message text-red-500 text-xs mt-1 hidden" id="message-error">Message is required</div>
+                        </div>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <button type="button" onclick="validateAndSendForm()" class="w-full bg-purple-600 hover:bg-purple-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center space-x-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                                </svg>
+                                <span>Send Message</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-2 mb-4">
+                        <img src="logo.jpg" alt="Dreams Media Ads" class="h-8 w-auto">
+                        <span class="text-2xl font-bold text-purple-400">Dreams Media Ads</span>
+                    </div>
+                    <p class="text-gray-300 mb-4">Your trusted partner for innovative outdoor advertising solutions. We help brands create lasting impressions through strategic placement and creative excellence.</p>
+                    <div class="flex space-x-4">
+                        <button onclick="sendWhatsAppMessage()" class="text-gray-300 hover:text-green-400 transition duration-300" title="WhatsApp">
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                            </svg>
+                        </button>
+                        
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/dream_smediaads/profilecard/?igsh=anhqbmJwZjV4cTc1" target="_blank" class="text-gray-300 hover:text-pink-500 transition duration-300" title="Instagram">
+        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zm8.25 2a.75.75 0 110 1.5.75.75 0 010-1.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7z"/>
+        </svg>
+    </a>
+
+                        
+                        <a href="mailto:dreamsmediaadsinfo@gmail.com" class="text-gray-300 hover:text-purple-400 transition duration-300" title="Email">
+                            <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8"/>
+                                <path d="M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </a>
+                        <a href="tel:+918197707263" class="text-gray-300 hover:text-purple-400 transition duration-300" title="Phone">
+                            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-purple-400 transition duration-300">Home</a></li>
+                        <li><a href="#services" class="text-gray-300 hover:text-purple-400 transition duration-300">Services</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-purple-400 transition duration-300">About</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-purple-400 transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-300">
+                        <p class="flex items-center">
+                            <svg class="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8"/>
+                                <path d="M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                            dreamsmediaadsinfo@gmail.com
+                        </p>
+                        <p class="flex items-center">
+                            <svg class="h-4 w-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+                            </svg>
+                            +91 8197707263
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-300">&copy; 2025 Dreams Media Ads. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for enhanced functionality -->
+    <script>
+        // Function to validate form with visual feedback
+        function validateAndSendForm() {
+            let isValid = true;
+            
+            // Clear all previous error states
+            document.querySelectorAll('.error-message').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('input, select, textarea').forEach(el => {
+                el.classList.remove('border-red-500');
+                el.classList.add('border-gray-300');
+            });
+
+            // Get form values
+            const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value.trim();
+
+            // Validate First Name
+            if (!firstName) {
+                showError('firstName', 'First name is required');
+                isValid = false;
+            }
+
+            // Validate Last Name
+            if (!lastName) {
+                showError('lastName', 'Last name is required');
+                isValid = false;
+            }
+
+            // Validate Email
+            if (!email) {
+                showError('email', 'Email address is required');
+                isValid = false;
+            } else if (!isValidEmail(email)) {
+                showError('email', 'Please enter a valid email address');
+                isValid = false;
+            }
+
+            // Validate Phone
+            if (!phone) {
+                showError('phone', 'Phone number is required');
+                isValid = false;
+            } else if (!isValidPhone(phone)) {
+                showError('phone', 'Please enter a valid phone number');
+                isValid = false;
+            }
+
+            // Validate Service
+            if (!service) {
+                showError('service', 'Please select a service');
+                isValid = false;
+            }
+
+            // Validate Message
+            if (!message) {
+                showError('message', 'Message is required');
+                isValid = false;
+            } else if (message.length < 10) {
+                showError('message', 'Message should be at least 10 characters long');
+                isValid = false;
+            }
+
+            // If all fields are valid, send the form
+            if (isValid) {
+                sendFormToWhatsApp();
+            } else {
+                // Scroll to first error
+                const firstError = document.querySelector('.error-message:not(.hidden)');
+                if (firstError) {
+                    firstError.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                }
+            }
+        }
+
+        // Helper function to show error
+        function showError(fieldId, message) {
+            const field = document.getElementById(fieldId);
+            const errorEl = document.getElementById(fieldId + '-error');
+            
+            field.classList.remove('border-gray-300');
+            field.classList.add('border-red-500');
+            
+            if (errorEl) {
+                errorEl.textContent = message;
+                errorEl.classList.remove('hidden');
+            }
+        }
+
+        // Email validation
+        function isValidEmail(email) {
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+
+        // Phone validation (accepts various formats)
+        function isValidPhone(phone) {
+            const phoneRegex = /^[\+]?[0-9\s\-\(\)]{10,15}$/;
+            return phoneRegex.test(phone);
+        }
+
+        // Function to send form data to WhatsApp
+        function sendFormToWhatsApp() {
+            const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const service = document.getElementById('service').value;
+            const message = document.getElementById('message').value.trim();
+
+            // Format the message
+            let whatsappMessage = `*New Inquiry from Website*\n\n`;
+            whatsappMessage += `*Name:* ${firstName} ${lastName}\n`;
+            whatsappMessage += `*Email:* ${email}\n`;
+            whatsappMessage += `*Phone:* ${phone}\n`;
+            whatsappMessage += `*Service Interested:* ${service}\n`;
+            whatsappMessage += `*Message:* ${message}`;
+
+            const phoneNumber = "918197707263";
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(whatsappUrl, '_blank');
+            
+            // Show success message and reset form
+            alert('Your message has been sent! We will get back to you soon.');
+            document.getElementById('contactForm').reset();
+            
+            // Clear any error states
+            document.querySelectorAll('.error-message').forEach(el => el.classList.add('hidden'));
+            document.querySelectorAll('input, select, textarea').forEach(el => {
+                el.classList.remove('border-red-500');
+                el.classList.add('border-gray-300');
+            });
+        }
+
+        // Mobile menu toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            
+            if (menuToggle && mobileMenu) {
+                menuToggle.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('hidden');
+                });
+                
+                // Close mobile menu when clicking on a link
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Tab functionality for services (if needed)
+        function showTab(tabId) {
+            // Hide all tab contents
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Remove active class from all tab buttons
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.classList.remove('bg-purple-600', 'text-white');
+                button.classList.add('bg-gray-200', 'text-gray-700');
+            });
+            
+            // Show selected tab
+            const selectedTab = document.getElementById(tabId);
+            if (selectedTab) {
+                selectedTab.classList.add('active');
+            }
+            
+            // Activate selected tab button
+            const selectedButton = document.querySelector(`[onclick="showTab('${tabId}')"]`);
+            if (selectedButton) {
+                selectedButton.classList.remove('bg-gray-200', 'text-gray-700');
+                selectedButton.classList.add('bg-purple-600', 'text-white');
+            }
+        }
+    </script>
+</body>
+</html>
